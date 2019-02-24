@@ -1,0 +1,46 @@
+.msg-falha {
+	display: block;
+	height: 50px;
+	width: 80%;
+	min-width: 400px;
+	background-color: #E74C3C;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	margin:15px auto;
+	margin-bottom: 0;
+	line-height: 50px;
+	color: #fff;
+	overflow: hidden;
+	animation-name: abrir-msg;
+	animation-duration:3s;
+	animation-timing-function: ease;
+}
+.sucesso {
+	display: block;
+	height: 50px;
+	width: 80%;
+	min-width: 400px;
+	background-color: #16A085;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	margin:15px auto;
+	margin-bottom: 0;
+	line-height: 50px;
+	color: #fff;
+	overflow: hidden;
+	animation-name: abrir-msg;
+	animation-duration:3s;
+	animation-timing-function: ease;
+
+}
+@keyframes abrir-msg {
+	from {
+		height: 2px;
+		
+	}
+	to {
+		height: 50px;
+	}
+}
